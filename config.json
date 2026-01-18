@@ -1,0 +1,91 @@
+{
+    "source_folder": "C:\\Users\\Tim\\Downloads",
+    "organize_by_date": false,
+    "default_interval_minutes": 1,
+    "file_categories": {
+        "Images": [
+            ".jpg",
+            ".jpeg",
+            ".png",
+            ".gif",
+            ".bmp",
+            ".webp",
+            ".svg",
+            ".tiff",
+            ".heic"
+        ],
+        "Videos": [
+            ".mp4",
+            ".avi",
+            ".mov",
+            ".mkv",
+            ".wmv",
+            ".flv",
+            ".webm",
+            ".m4v"
+        ],
+        "Documents": [
+            ".pdf",
+            ".doc",
+            ".docx",
+            ".txt",
+            ".rtf",
+            ".odt",
+            ".xls",
+            ".xlsx",
+            ".ppt",
+            ".pptx",
+            ".csv"
+        ],
+        "Archives": [
+            ".zip",
+            ".rar",
+            ".7z",
+            ".tar",
+            ".gz",
+            ".bz2",
+            ".xz",
+            ".iso"
+        ],
+        "Scripts": [
+            ".py",
+            ".js",
+            ".html",
+            ".css",
+            ".php",
+            ".java",
+            ".cpp",
+            ".c",
+            ".h",
+            ".cs",
+            ".rb",
+            ".go",
+            ".json",
+            ".xml"
+        ],
+        "Audio": [
+            ".mp3",
+            ".wav",
+            ".flac",
+            ".aac",
+            ".ogg",
+            ".wma",
+            ".m4a"
+        ],
+        "Executables": [
+            ".exe",
+            ".msi",
+            ".app",
+            ".bat",
+            ".sh",
+            ".apk"
+        ]
+    },
+    "ignored_items": [
+        "desktop.ini",
+        "thumbs.db",
+        ".DS_Store",
+        "Mesnizer",
+        "organizer.log"
+    ]
+}
