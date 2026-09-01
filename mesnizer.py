@@ -1,6 +1,6 @@
 import os
+import copy
 import shutil
-import cssutils
 import time
 import sys
 import json
@@ -136,7 +136,7 @@ class ConfigDialog(QDialog):
         self.setWindowTitle(f"Configure {appName}")
         self.resize(800, 600)
         self.setMinimumSize(700, 500)
-        self.config = configData.copy()
+        self.config = copy.deepcopy(configData)
         self.setWindowIcon(QIcon("tray_icon.ico"))
         
         mainLayout = QVBoxLayout(self)
